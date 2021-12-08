@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.aboutInfo {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100vw;
+}
+
+.heading h1 {
+    color:rgb(58, 73, 58);
+}
+
+.aboutCol1, .aboutInfo img {
+    margin: 50px;
+    max-width: 500px;
+}
+
+.container1, .container3 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+	backdrop-filter: blur(2rem);
+}
+
+.container1 {
+    background-color: rgb(148, 181, 148);
+}
+
+.container2 {
+    width: 600px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh; 
+    z-index: 4;
+}
+
+.container3 {
+    background-color: rgb(224, 232, 218);
+}
+
+.circle1, .circle2 {
+    background: white;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05));
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%; 
+}
+
+.circle3, .circle4 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.05));
+        height: 10rem;
+        width: 10rem;
+        position: absolute;
+        border-radius: 50%;
+}
+
+.circle1 {
+    top: 3%; 
+    right: 13%;
+}
+
+.circle2 {
+    bottom: 2%;
+    left: 3%;
+}
+
+.circle3 {
+    top: 3%;
+    right: 2%; 
+}
+
+.circle4{
+    bottom: 5%;
+    right: 9%;
+}
+
+.downArrow {
+    font-size: 60px;
+    color: rgb(224, 232, 218);
+    position: absolute;
+    bottom: 5%;
+}
+
+.heading {
+    margin: 50px 0px 0px 0px; 
+}
+
+.name1, .name2, .name3 {
+    width: 100%;
+    display:flex; 
+    align-items: center;
+}
+
+.name1 {
+    justify-content: flex-start;
+    font-size: 20px; 
+    color:rgb(224, 232, 218)
+}
+
+.name2 {
+    justify-content: center;
+    font-size: 30px;
+    color:rgb(58, 73, 58) 
+}
+
+.name3 {
+    justify-content: flex-end;
+    font-size: 20px;
+    color:rgb(224, 232, 218) 
+}
+
+.navbar {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 0px 20px 0px;
+    width: 100vw;
+    z-index: 4;
+    position: fixed;
+}
+
+.navbar a {
+    color:rgb(58, 73, 58);
+    text-decoration: none;
+    margin-right: 20px; 
+    font-size: 20px;
+}
+
+.profilePic {
+    height: 500px;
+    border-radius: 30%; 
+}
+
+p {
+    padding: 5px; 
+}
+
+ul {
+    margin-left: 50px;
+}
