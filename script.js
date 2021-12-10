@@ -6,11 +6,11 @@ ScrollReveal().reveal('.profilePic', { delay: 500, origin: 'right', distance: '1
 ScrollReveal().reveal('.name1', {delay:500, origin: 'left', distance: '50px'});
 ScrollReveal().reveal('.name2', {delay:1500, origin: 'center', distance: 0});
 ScrollReveal().reveal('.name3', {delay: 2500, origin: 'right', distance: '50px'}); 
-ScrollReveal().reveal('.projectCard', {delay: 800, origin: 'bottom', distance: '100px'});
+ScrollReveal().reveal('.projectCard', {delay: 500, origin: 'bottom', distance: '100px'});
 
 
 // GSAP
-var tl = gsap.timeline({repeat: 8, 
+var tl = gsap.timeline({repeat: 10, 
     yoyo: true});
 
     tl.to(".circle1", {duration: 10, x:-300,y:"-150vh",rotation:360},"all")

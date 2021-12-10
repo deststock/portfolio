@@ -18,6 +18,14 @@ html.sr .load-hidden {
     justify-content: center;
 }
 
+.arrow {
+    font-size: 60px;
+    color: rgb(224, 232, 218);
+    position: absolute;
+    bottom: 5%;
+    text-decoration: none;
+}
+
 .aboutMe p {
     font-size: 18px;
     color:rgb(58, 73, 58);
@@ -71,8 +79,30 @@ html.sr .load-hidden {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    z-index: 3;
-	backdrop-filter: blur(2rem);
+    z-index: 3; 
+}
+
+.container4 {
+    background-color:rgb(58, 73, 58);
+    width: 100vw;
+    max-width: 100vw; 
+    height: 20vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 3; 
+}
+
+.contactInfo h1 {
+    color: rgb(224, 232, 218);
+    font-size: 20px;
+    margin-left: 20px; 
+    padding: 20px; 
+}
+
+.contactInfo {
+    margin: 50px; 
 }
 
 .circle1, .circle2 {
@@ -155,12 +185,9 @@ html.sr .load-hidden {
     left: 3%;
 }
 
-.arrow {
-    font-size: 60px;
-    color: rgb(224, 232, 218);
-    position: absolute;
-    bottom: 5%;
-    text-decoration: none;
+.email {
+    color:rgb(224, 232, 218);
+    font-size: 15px;
 }
 
 .heading {
@@ -184,6 +211,13 @@ h5 {
 iframe {
     height: 100%;
     width: 100%;
+}
+
+.links {
+    width: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .name1, .name2, .name3 {
@@ -242,6 +276,7 @@ p {
 
 .projCol1 {
     max-width: 40vw;
+    min-width: 550px; 
 }
 
 .projCol1 p {
@@ -250,4 +285,30 @@ p {
 
 ul {
     margin-left: 50px;
+}
+
+
+/* scrollbar css  */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    display: none;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    display: none;
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    display: none;
 }
