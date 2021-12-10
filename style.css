@@ -3,28 +3,45 @@
     padding: 0px;
 }
 
-.aboutInfo {
+ /* for scroll reveal */
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+.aboutMe, .profilePic {
+    padding: 50px;
+    border-radius: 20%;
+    height: 500px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe p {
+    font-size: 18px;
+    color:rgb(58, 73, 58);
+}
+
+.col1, .col2 {
+    max-width: 500px;
+}
+
+.colInfo {
     display: flex; 
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 10px;
     width: 100vw;
 }
 
-.heading h1 {
-    color:rgb(58, 73, 58);
-}
-
-.aboutCol1, .aboutInfo img {
-    margin: 50px;
-    max-width: 500px;
-}
-
-.container1, .container3 {
+.container1 {
     width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     z-index: 3;
 	backdrop-filter: blur(2rem);
@@ -32,6 +49,7 @@
 
 .container1 {
     background-color: rgb(148, 181, 148);
+    padding: 0px; 
 }
 
 .container2 {
@@ -46,6 +64,15 @@
 
 .container3 {
     background-color: rgb(224, 232, 218);
+    width: 100vw;
+    max-width: 100vw; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 3;
+	backdrop-filter: blur(2rem);
 }
 
 .circle1, .circle2 {
@@ -61,42 +88,102 @@
 .circle3, .circle4 {
     background: white;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3),
-        rgba(255, 255, 255, 0.05));
-        height: 10rem;
-        width: 10rem;
-        position: absolute;
-        border-radius: 50%;
+    rgba(255, 255, 255, 0.05));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle5, .circle6 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05));
+    height: 8rem;
+    width: 8rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle7, .circle8 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05));
+    height: 13rem;
+    width: 13rem;
+    position: absolute;
+    border-radius: 50%;
 }
 
 .circle1 {
-    top: 3%; 
-    right: 13%;
+    bottom: -50%;
+    right: 20%;
 }
 
 .circle2 {
-    bottom: 2%;
-    left: 3%;
+    bottom: -50%;
+    right: 3%;
 }
 
 .circle3 {
-    top: 3%;
+    bottom: -50%;
     right: 2%; 
 }
 
 .circle4{
-    bottom: 5%;
+    bottom: -50%;
     right: 9%;
 }
 
-.downArrow {
+.circle5{
+    bottom: -50%;
+    right: 8%;
+}
+
+.circle6{
+    bottom: -50%;
+    left: 5%;
+}
+
+.circle7{
+    bottom: -50%;
+    left: 6%;
+}
+
+.circle8{
+    bottom: -50%;
+    left: 3%;
+}
+
+.arrow {
     font-size: 60px;
     color: rgb(224, 232, 218);
     position: absolute;
     bottom: 5%;
+    text-decoration: none;
 }
 
 .heading {
     margin: 50px 0px 0px 0px; 
+}
+
+.heading h1 {
+    color:rgb(58, 73, 58);
+    font-size: 40px; 
+}
+
+h3 {
+    height: 30px;
+    font-size: 25px; 
+}
+
+h5 {
+    font-style: italic;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
 }
 
 .name1, .name2, .name3 {
@@ -140,13 +227,25 @@
     font-size: 20px;
 }
 
-.profilePic {
-    height: 500px;
-    border-radius: 30%; 
-}
-
 p {
     padding: 5px; 
+}
+
+.projectCard {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw; 
+    margin: 20px; 
+    color:rgb(58, 73, 58);
+}
+
+.projCol1 {
+    max-width: 40vw;
+}
+
+.projCol1 p {
+    padding: 10px 0px 0px 0px;
 }
 
 ul {

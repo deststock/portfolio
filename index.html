@@ -1,63 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destiny Stockwell - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Destiny Stockwell - Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    </head>
 <body>
     <div class="navbar">
-        <a href="http://">Home</a>
-        <a href="http://">About</a>
-        <a href="http://">Projects</a>
+        <a href="#home"">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
     </div>
-    <section>
-        <div class="container1">
-            <div class="container2">
-            <div class="name1">
+    <section id="home">
+        <div class="container1" >
+            <div class="container2" id="con2" >
+            <div class="name1" id="nameCon1">
                 <p> Hi, my name is</p>
             </div>
-            <div class="name2">
+            <div class="name2" id="nameCon2">
                 <h1>Destiny Stockwell</h1>
             </div>
-            <div class=name3>
+            <div class=name3 id="nameCon3">
                 <p>and I am a full stack software developer!</p>
             </div>
         </div>
         <div class="downArrow">
-            <p>&#8964</p>
+            <a href="#about" class="arrow"><p>&#8964</p></a>
         </div>
-        
         <!-- circles that will be animated  -->
         <div class="circle1"></div> 
         <div class="circle2"></div> 
         <div class="circle3"></div> 
         <div class="circle4"></div> 
         <div class="circle5"></div> 
-        <script type="text/javascript" src="/script.js"></script>
+        <div class="circle6"></div>
+        <div class="circle7"></div>
+        <div class="circle8"></div>
     </div>
-</section>
-    <div class="container3">
+    </section>
+    <section id="about">
+    <div class="container3" >
         <div class="heading">
             <h1> About Me </h1>
         </div>
-        <div class="aboutInfo">
-            <div class="aboutCol1">
-            <p> Growing up, every other month I would draw up new ways of rearranging my room, trying to figure out different ways my furniture would fit and different places to hang my decor. My mom hated it, but to me it was a puzzle that wanted to be solved. This carried out into my adult years and even now, my house gets rearranged more often than it probably should! </p>
-            <p>Someone suggested trying my hand at coding to utilize my problem solving skills and creativity and the more I looked into it the more I was interested. I finally took the leap and signed up for a coding bootcamp and my love for coding was ignited! I have a passion for developing appealing and easy to use interfaces to meet the needs of many end users, whether that be education related (check out my Education Connection app listed below) or a way to connect with people who have the same interests as you. I admire the opportunity to contribute to the growth of technologies that help to make life easier and more enjoyable!</p>
-            <!-- <p>I have knowledge in the following: </p>
-            <ul>
-                <li>Python</li>
-                <li>Java</li>
-                <li>JavaScript</li>
-                <li>CSS</li>
-                <li>HTML</li>
-            </ul> -->
+        <div class="colInfo">
+            <div class="col1">
+                <div class="aboutMe">
+                    <p> Growing up, every other month I would draw up new ways of rearranging my room, trying to figure out different ways my furniture would fit and different places to hang my decor. My mom hated it, but to me it was a puzzle that wanted to be solved. This carried out into my adult years and even now, my house gets rearranged more often than it probably should! </p>
+                    <p>Someone suggested trying my hand at coding to utilize my problem solving skills and creativity and the more I looked into it the more I was interested. I finally took the leap and signed up for a coding bootcamp and my love for coding was ignited! I have a passion for developing appealing and easy to use interfaces to meet the needs of many end users, whether that be education related (check out my Education Connection app listed below) or a way to connect with people who have the same interests as you. I admire the opportunity to contribute to the growth of technologies that help to make life easier and more enjoyable!</p>
+                </div>
             </div>
-            <img src="/static/pic1.jpeg" alt="profile picture" class="profilePic">
+            <div class="col2">
+                <img src="/static/pic1.jpeg" alt="profile picture" class="profilePic">
+            </div>
         </div>
     </div>
+    </section>
+    <section id="projects">
+        <div class="container3">
+            <div class="heading"> 
+                <h1>Projects</h1>
+            </div>
+            <div class="projectCard">
+                <div class="projCol1">
+                    <h3> Education Connection | Full Stack Developer | <a href="https://github.com/deststock/EducationConnection" target="_blank"><img src="/static/GitHub.png" alt="GitHub logo"></a></h3>
+                    <h5> Java, Spring Boot, jQuery, MySQL, HTML, CSS, JavaScript, Bootstrap, Balsamiq </h5>
+                    <p>
+                        Lightweight student tracking system that was built using Spring Tool Suite. Allows teachers to track their students grades, attendance, birthdays and more! 
+                    </p> 
+                </div>
+                <div class="projCol2"> 
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rt9o05EWwnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="projectCard">
+                <div class="projCol1">
+                    <h3> PlanetWide | Full Stack Developer | <a href="https://github.com/deststock/PlanetWide" target="_blank"><img src="/static/GitHub.png" alt="GitHub logo"></a></h3>
+                    <h5>  React, MongoDB, Express, Nodemon, HTML, CSS, JavaScript, Moqups </h5>
+                    <p>
+                        A sleek website for anyone to learn more about our Solar System! See the Astrology Picture of the Day and compare other planets with Earth.  
+                    </p> 
+                </div>
+                <div class="projCol2"> 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zhpdgsxyOag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="projectCard">
+                <div class="projCol1">
+                    <h3> Adventure Time | Full Stack Developer | <a href="https://github.com/deststock/AdventureTime" target="_blank"><img src="/static/GitHub.png" alt="GitHub logo"></a></h3>
+                    <h5>  Python, Flask, MySQL, BCrypt, RegEx, HTML, CSS, jQuery, AJAX, SummerNote, Bootstrap </h5>
+                    <p>
+                        A website to connect with people who love the outdoors! Create a profile and add your own post which can include personalized text, photos, videos, and more!
+                    </p> 
+                </div>
+                <div class="projCol2"> 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/G2Wabs3IsJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <script type="text/javascript" src="/script.js"></script>
 </body>
 </html>
