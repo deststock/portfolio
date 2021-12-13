@@ -79,7 +79,7 @@ html.sr .load-hidden {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    z-index: 3; 
+    z-index: 2; 
 }
 
 .container4 {
@@ -146,42 +146,42 @@ html.sr .load-hidden {
 }
 
 .circle1 {
-    bottom: -50%;
+    bottom: 0;
     right: 20%;
 }
 
 .circle2 {
-    bottom: -50%;
+    bottom: 0;
     right: 3%;
 }
 
 .circle3 {
-    bottom: -50%;
+    bottom: 0;
     right: 2%; 
 }
 
 .circle4{
-    bottom: -50%;
+    bottom: 0;
     right: 9%;
 }
 
 .circle5{
-    bottom: -50%;
+    bottom: 0;
     right: 8%;
 }
 
 .circle6{
-    bottom: -50%;
+    bottom: 0;
     left: 5%;
 }
 
 .circle7{
-    bottom: -50%;
+    bottom: 0;
     left: 6%;
 }
 
 .circle8{
-    bottom: -50%;
+    bottom: 0;
     left: 3%;
 }
 
