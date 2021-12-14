@@ -24,4 +24,5 @@ var tl = gsap.timeline({repeat: 10,
     
     tl.play();
     
+var about = document.getElementsByClassName('colInfo')
 
