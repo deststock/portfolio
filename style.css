@@ -18,11 +18,16 @@
     height: 70vh;
 }
 .links {
-    width: 35vw; 
+    width: 80vw; 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding-top: 20px; 
+}
+
+.links h1 {
+    color: rgb(224, 232, 218);
+    font-size: 35px; 
 }
 }
 
@@ -49,6 +54,11 @@
     align-items: flex-start;
     justify-content: space-evenly;
     padding-top: 20px; 
+}
+
+.links h1 {
+    color: rgb(224, 232, 218);
+    font-size: 20px; 
 }
 }
 
@@ -136,16 +146,11 @@ br {
     z-index: 3; 
 }
 
-.contactInfo h1 {
-    color: rgb(224, 232, 218);
-    font-size: 20px;
-    padding: 10px 0px 10px 35px; 
-}
-
 .contactInfo {
     margin-left: 5vw; 
     width: 100%;
 }
+
 
 /* circles  */
 
